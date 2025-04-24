@@ -137,4 +137,4 @@ For project inquiries or collaboration opportunities:
 
 Email: chisommichaelokoroafor@gmail.com
 Website: https://chisomdeveloper.netlify.app/
-Twitter: @simplyCheesom
+Twitter: [@simplyCheesom](https://x.com/simplyCheesom)
