@@ -44,19 +44,23 @@ A modern cryptocurrency presale website built with React, TypeScript, and Web3 t
 
    ```bash
    git clone https://github.com/mikael0907/crypto-presale-website.git
-   cd doggocoin-presale
-   Install dependencies:
+   cd presale-website
 
    ```
 
-2. bash
-   npm install
-   Create a .env file in the root directory:
+2. Install dependencies
+
+```bash
+  npm install
+
+```
 
 3. Run the development server:
 
-bash
+```bash
 npm run dev
+
+```
 
 ### Project Structure
 
