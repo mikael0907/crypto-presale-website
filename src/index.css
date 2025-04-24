@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Luckiest+Guy&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jersey+15&family=Luckiest+Guy&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jersey+15&family=Luckiest+Guy&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "tailwindcss";
+@import "@rainbow-me/rainbowkit/styles.css";
+
+/* index.css */
+
+:root {
+  /* Colors */
+  --primary-color: #ff5c8d;
+  --secondary-color: #ffd93d;
+  --accent-color: #00d1ff;
+  --background-color: #1b1b3a;
+  --card-bg-color: #26264f;
+  --text-color: #ffffff;
+  --muted-color: #bdbdbd;
+  --success-color: #4effa3;
+  --error-color: #ff6b6b;
+
+  /* Fonts */
+  --font-fun: "Luckiest Guy", cursive;
+  --font-comic: "Comic Neue", sans-serif;
+  --font-clean: "Poppins", sans-serif;
+
+  /* Font Sizes */
+  --hero-size: 4rem;
+  --section-title-size: 2.5rem;
+  --body-size: 1rem;
+  --button-size: 1.25rem;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-clean);
+}
+
+.font-fun {
+  font-family: var(--font-fun);
+}
+
+.font-comic {
+  font-family: var(--font-comic);
+}
+
+.font-clean {
+  font-family: var(--font-clean);
+}
+
+/* Add these additional styles to your index.css */
+.accent-color {
+  color: var(--accent-color);
+}
+
+.bg-accent-color {
+  background-color: var(--accent-color);
+}
+
+.bg-accent-color-dark {
+  background-color: #00b8e6; /* Slightly darker accent color */
+}
+
+.text-background-color {
+  color: var(--text-color);
+}
+
+/* Animation for the hero section */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-animate {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  :root {
+    --hero-size: 2.5rem;
+    --section-title-size: 1.75rem;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin-top: 2rem;
+    max-width: 100%;
+  }
+}
+
+/*Presale Info*/
+.card-background {
+  background-color: var(--card-bg-color);
+}
