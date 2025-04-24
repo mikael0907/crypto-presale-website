@@ -8,6 +8,7 @@ import { FaDiscord, FaTwitter } from "react-icons/fa6";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import { LiaLinkedin } from "react-icons/lia";
+import heroImg from "../src/assets/undraw_page-eaten_b2rt-removebg-preview.png";
 
 function App() {
   const handleCtaClick = () => {
@@ -141,7 +142,7 @@ function App() {
         <HeroSection
           title="Dougie Coin Presale"
           subtitle="The Fun and friendly meme token"
-          heroImage="../src/assets/undraw_page-eaten_b2rt-removebg-preview.png"
+          heroImage={heroImg}
           ctaText="Buy Now"
           onCtaClick={handleCtaClick}
         />
